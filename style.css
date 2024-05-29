@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/cidadefranca.png);
+    background-size: cover;
+}
+
+nav {
+    background-color: #040403;
+}
+
+nav li {
+    display: inline-block;
+    max-width: auto;
+
+}
+
+nav li a {
+    color: #EEE5E5;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.menu1:hover {
+    background-color: #4169e1;
+    color: #040403;
+}
+
+.menu2:hover {
+    background-color: #eee5e5;
+    color: #040403;
+}
+
+.menu3:hover {
+    background-color: #c1121f;
+    color: #040403;
+}
+
+.titulo {
+    color: #eee5e5;
+    font-style: oblique;
+    font-size: 32px;
+    text-align: center;
+}
+
+.titulo2 {
+    color: #eee5e5;
+    font-style: oblique;
+    font-size: 32px;
+    text-align: center;
+    top: 200px;
+}
+
+.retangulo {
+    background-color: #040403;
+    padding: 20px;
+    margin-left: 50px;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    left: 3%;
+    top: 10%;
+}
+
+.retangulo p {
+    color: #eee5e5;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.imgnapoleao {
+    width: 380px;
+    height: 446px;
+    position: absolute;
+    left: 900px;
+    top: 175px;
+    margin-right: 50px;
+    border: solid 5px;
+}
+
+.imgdados {
+    width: 384px;
+    height: 293px;
+    position: absolute;
+    left: 900px;
+    top: 800px;
+    margin-right: 50px;
+    border: solid 5px;
+}
+
+.bandeira {
+    width: 600px;
+    height: 400px;
+    top: 425px;
+    left: 350px;
+    position: relative;
+    border: solid 5px;
+}
+
+.imglocal {
+    width: 600px;
+    height: 400px;
+    left: 350px;
+    position: absolute;
+    border: solid 5px;
+}
+
+.imgdemo {
+    width: 350px;
+    height: 386px;
+    left: 475px;
+    position: absolute;
+    border: solid 5px;
+}
+
+.retangulo2 {
+    background-color: #040403;
+    padding: 20px;
+    margin-left: 50px;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 120%;
+}
+
+.retangulo2 p {
+    color: #eee5e5;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.retangulo3 {
+    background-color: #040403;
+    padding: 20px;
+    margin-left: 315px;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    left: 3%;
+    top: 10%;
+}
+
+.retangulo3 p {
+    color: #eee5e5;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.franca{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: #eee5e5;
+    text-align: center;
+    top: 200px;
+    position: relative;
+}
+
+.dados{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #eee5e5;
+    text-align: center;
+    top: 200px;
+    position: relative;
+}
+
+.formulario{
+    color: #eee5e5;
+    top: 10%;
+    text-align: center;
+}
+
+.enviar{
+    padding: 0.6rem 1.3rem;
+    background-color: #040403;
+    font-size: 0.95rem;
+    color: #eee5e5;
+    line-height: 1;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+}
+ 
+.enviar:hover{
+    color:#4169e1
+}
+
+.enviar{
+    padding: 10px 10px;
+    background-color: #040403;
+    font-size: 0.95rem;
+    color: #eee5e5;
+    line-height: 1;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+}
+ 
+.enviar:hover{
+    color:#040403;
+    background-color: #4169e1;
+}
+
+.limpar{
+    padding: 10px 10px;
+    background-color: #040403;
+    font-size: 0.95rem;
+    color: #eee5e5;
+    line-height: 1;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+}
+ 
+.limpar:hover{
+    color:#040403;
+    background-color: #c1121f;
+}
+
+.rodape{
+    background-color: #040403;
+    color: #eee5e5;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: 435px;
+}
+
+.rodape2{
+    background-color: #040403;
+    color: #eee5e5;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: 100px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-widht, inicial-scale=1">
+    <link rel="icon" type="img/jpg" href="img/bandeirafranca.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contato - França</title>
+    <script language="javascript" type="text/javascript">
+        function validar() {
+            var nome = form1.nome.value;
+            var email = form1.email.value;
+            var telefone = form1.telefone.value;
+            if (nome == "") {
+                alert("Preencha esse campo com seu nome");
+                form1.nome.focus();
+                return false;
+            }
+            if (nome.length < 5) {
+                alert("Digite o seu nome completo");
+                form1.nome.focus();
+                return false;
+            }
+            if (email == "") {
+                alert("Preencha esse campo com seu Email");
+                form1.email.focus();
+                return false;
+            }
+            if (telefone == "") {
+                alert("Preencha esse campo com seu telefone");
+                form1.telefone.focus();
+                return false;
+            }
+            if (telefone.length < 9) {
+                alert("Digite o seu telefone completo");
+                form1.telefone.focus();
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <nav>
+        <li>
+            <a class="menu1" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="menu1" href="sobre.html">Sobre</a>
+        </li>
+        <li>
+            <a class="menu1" href="geografia.html">Geografia</a>
+        </li>
+        <li>
+            <a class="menu2" href="demografia.html">Demografia</a>
+        </li>
+        <li>
+            <a class="menu2" href="economia.html">Economia</a>
+        </li>
+        <li>
+            <a class="menu3" href="turismo.html">Turismo</a>
+        </li>
+        <li>
+            <a class="menu3" href="curiosidades.html">Curiosidades</a>
+        </li>
+        <li>
+            <a class="menu3" href="contato.html">Contato</a>
+        </li>
+    </nav>
+    <div class="titulo">
+        <br>
+        Contato <br><br>
+    </div>
+    <form class="formulario" name="form1" action="dadoenviado.html" method="post">
+        Nome: <input name="nome" type="text" size="30"><br><br></input>
+        Email: <input name="email" type="text" size="30"><br><br></input>
+        Telefone: <input name="telefone" type="text" size="27"><br><br></input>
+        <br><br>
+        </select>
+        <h3>Deixe seu comentário:</h3>
+        <textarea max lenght="150" cols="45" rows="20" name="comentario"></textarea><br>
+        <input class="enviar" type="submit" name="enviar" onclick="return validar()"></input>
+        <input class="limpar" type="reset" name="limpar" value="Limpar"></input>
+    </form>
+    <div class="rodape2">
+        <h4>Miguel Rubinho 2024 &copy Todos os direitos reservados<br>Trabalho acadêmico sem fins
+            lucrativos</h4>
+        <div align="right"><a href="#"><img src="img/setacima.png" width="50" height="50"></a>
+        </div>
+    </div>
+</body>
